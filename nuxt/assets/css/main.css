@@ -1,0 +1,26 @@
+/* @include generate-color-variants(--_c-orange-primary, #e58e09);
+
+@include assign-color-variants(--c-primary, --_c-orange-primary); */
+
+:root {
+  --c-primary: #e58e09;
+  --c-primary-variant: rgb(252, 203, 128);
+}
+.sf-bullet.is-active {
+  --bullet-background: #edff3a !important;
+}
+
+.sf-input input {
+  outline: none;
+}
+
+.sf-header__action {
+  --header-action-margin: 0 0 0 1rem;
+}
+
+.sf-product-card__add-button {
+  z-index: 10;
+}
+.sf-product-card__add-button:focus {
+  outline: none;
+}

@@ -1,0 +1,5 @@
+{
+  "request": "attach",
+  "name": "Attach to strapi",
+  "port": 9229
+}
